@@ -20,10 +20,10 @@ palabra_2 = str(input())
 print('Ingrese palabra con Z')
 palabra_3 = str(input())
 
-print('Ingrese palabra con I')
+print('Ingrese palabra con Z')
 palabra_4 = str(input())
 
-print('Ingrese palabra con N')
+print('Ingrese palabra con I')
 palabra_5 = str(input())
 
 print('Ingrese palabra con N')
