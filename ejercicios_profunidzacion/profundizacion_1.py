@@ -38,12 +38,12 @@ numero_2 = float(input())
 
 
 S = numero_1 + numero_2
-print (f'El resultado de la suma de los numeros es {S}')
+print (f'El resultado de la suma de los numeros {numero_1} y {numero_2} es {S}')
 R = numero_1 - numero_2
-print (f'El resultado de la resta de los numeros es {R}')
+print (f'El resultado de la resta de los numeros {numero_1} y {numero_2} es {R}')
 M = numero_1 * numero_2
-print (f'El resultado de la multiplicación de los numeros es {M}')
+print (f'El resultado de la multiplicación de los numeros {numero_1} y {numero_2} es {M}')
 D = numero_1 / numero_2
-print (f'El resultado de la división de los numeros es {D}')
+print (f'El resultado de la división de los numeros es {numero_1} y {numero_2} es {D}')
 EP = numero_1 ** numero_2
-print (f'El resultado de la potencia de los numeros es {EP}')
+print (f'El resultado de la potencia de los numeros es {numero_1} y {numero_2} es {EP}')
