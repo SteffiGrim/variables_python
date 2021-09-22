@@ -25,4 +25,4 @@ print (nombre  + ' '+  apellido)
 nombre_completo = (nombre + ' '+ apellido)
 # Imprimir la cantidad de letras que posee su nombre completo
 # cantidad_letras = len(....)
-print(f'Tu nombre completo tiene {len(nombre_completo)} letras')
+print(f'Tu nombre completo tiene {len(nombre_completo)-1} letras')
