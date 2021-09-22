@@ -12,10 +12,10 @@
 # Ahora los valores a operar deben ser ingresados por
 # consola con la función "input" como se ve a continuación
 print('Ingrese por consola el primer número decimal a operar:')
-numero_1 = int(input())
+numero_1 = float(input())
 
 print('Ingrese por consola el segundo número decimal a operar:')
-numero_2 = int(input())
+numero_2 = float(input())
 
 # Alumno: Imprima en pantalla los dos números decimales solicitados
 # print(....)
@@ -27,9 +27,14 @@ numero_2 = int(input())
 # NOTA: No coloque usted los nùmeros y resultados, use las variables
 
 # Suma
-
+suma = (numero_1 + numero_2)
+print(f'El resultado de sumar {numero_1} y {numero_2} es {suma}')
 # Resta
-
+resta = (numero_1 - numero_2)
+print(f'El resultado de restar {numero_1} y {numero_2} es {resta}')
 # División
-
+division = (numero_1 / numero_2)
+print(f'El resultado de dividir {numero_1} y {numero_2} es {division}')
 # Multiplicación
+multiplicacion = (numero_1 * numero_2)
+print(f'El resultado de multiplicar {numero_1} y {numero_2} es {multiplicacion}')
