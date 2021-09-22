@@ -33,3 +33,17 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
 
 print('Sistema de ingreso de datos')
 # Empezar aquí la resolución del ejercicio
+
+print ('Indique su nombre completo')
+Nombre = str(input())
+print ('Indique su DNI')
+DNI = int(input())
+print ('Indique su Edad')
+Edad = int(input())
+print ('Indique su altura expresada en metros')
+Altura = float(input())
+
+print (f'Identificacion de {Nombre}: DNI {DNI}')
+print (f'Datos Biometricos de {Nombre}: Edad {Edad} y Altura {Altura}' )
+
+
